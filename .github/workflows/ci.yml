@@ -11,5 +11,19 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Echo
-        run: echo "Hello World!"
+      - name: Setup Nodejs
+        uses: actions/setup-node@v3
+        with:
+          node-version: 21.x
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build the App
+        run: npm run build
+
+      - name: Upload artifact for Deployment
+        uses: actions/upload-artifact@v3
+        with:
+          name: production-files
+          path: ./dist
