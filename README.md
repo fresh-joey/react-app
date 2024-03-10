@@ -11,3 +11,5 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # React App for CI/CD testing
 >>>>>>> dffd1b1 (initial commit)
+
+[![CI with React App](https://github.com/fresh-joey/react-app/actions/workflows/ci.yml/badge.svg)](https://github.com/fresh-joey/react-app/actions/workflows/ci.yml)
