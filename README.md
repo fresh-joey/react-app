@@ -1,3 +1,4 @@
+[![CI with React App](https://github.com/fresh-joey/react-app/actions/workflows/ci.yml/badge.svg)](https://github.com/fresh-joey/react-app/actions/workflows/ci.yml)
 <<<<<<< HEAD
 # react-app
 =======
@@ -12,4 +13,4 @@ Currently, two official plugins are available:
 # React App for CI/CD testing
 >>>>>>> dffd1b1 (initial commit)
 
-[![CI with React App](https://github.com/fresh-joey/react-app/actions/workflows/ci.yml/badge.svg)](https://github.com/fresh-joey/react-app/actions/workflows/ci.yml)
+
