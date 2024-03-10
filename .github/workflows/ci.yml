@@ -28,6 +28,15 @@ jobs:
           name: production-files
           path: ./dist
 
+  check_environment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Environment Variables
+        run: |
+          echo "Current Environment Variables:"
+          env
+
   Deploy:
     needs: Build
     runs-on: ubuntu-latest
